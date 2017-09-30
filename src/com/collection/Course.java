@@ -12,4 +12,11 @@ public class Course {
         this.id=id;
         this.name=name;
     }
+
+    /*
+    避免继承Course时候报错，新建一个无参构造器
+     */
+    public Course(){
+
+    }
 }
